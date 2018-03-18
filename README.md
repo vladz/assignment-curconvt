@@ -12,5 +12,5 @@ print(requests.post('http://localhost:8764/', data=json.dumps({'from': 'eur', 't
 ```
 GET:
 ```python
-print(requests.get('http://localhost:8764/?from=USD&to=USD&amount=1').text)
+print(requests.get('http://localhost:8764/?from=USD&to=EUR&amount=1').text)
 ```
