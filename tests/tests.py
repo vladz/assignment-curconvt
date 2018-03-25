@@ -67,7 +67,7 @@ def test_meta():
 
     m1 = Test()
     m2 = Test()
-    assert m1 == m2
+    assert m1 is m2
 
 
 async def test_handlers(cli: 'TestClient'):
